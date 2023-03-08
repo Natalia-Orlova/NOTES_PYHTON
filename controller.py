@@ -23,6 +23,20 @@ def notes():
             note.show_notes_list()
             c = input("Press any key to continue: ")
             continue
+
+        elif c == '3':
+            log.logger('Редактирование заметки')
+            note.edit_note()
+            c == input('Введите заголовок заметки: ')
+            continue
+
+        elif c == '4':
+             log.logger('Удаление заметки')
+             note.show_notes_list()
+             note.remove_note()
+             continue
+             
+             
             
         
         else:
