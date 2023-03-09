@@ -21,7 +21,6 @@ def notes():
         elif c == '2':
             log.logger("Открыт список заметок")
             note.show_notes_list()
-            c = input("Press any key to continue: ")
             continue
 
         elif c == '3':
@@ -35,10 +34,6 @@ def notes():
             note.show_notes_list()
             note.remove_note()
             continue
-
-             
-             
-            
         
         else:
                 log.logger("Invalid value entered")

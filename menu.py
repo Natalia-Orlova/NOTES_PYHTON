@@ -7,12 +7,3 @@ def main_menu():
     print('3. Изменить заметку')
     print('4. Удалить заметку')
     print('0. ВЫХОД\n')
-
-def edit_menu():
-    print('Выберите номер заметки: ')
-
-
-    
-
-# main_menu()
-# submenu_list()
