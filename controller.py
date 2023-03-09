@@ -26,15 +26,16 @@ def notes():
 
         elif c == '3':
             log.logger('Редактирование заметки')
+            note.show_notes_list()
             note.edit_note()
-            c == input('Введите заголовок заметки: ')
             continue
 
         elif c == '4':
-             log.logger('Удаление заметки')
-             note.show_notes_list()
-             note.remove_note()
-             continue
+            log.logger('Удаление заметки')
+            note.show_notes_list()
+            note.remove_note()
+            continue
+
              
              
             
@@ -43,4 +44,4 @@ def notes():
                 log.logger("Invalid value entered")
                 print ("Invalid value")
                 continue
-        return
+    return
